@@ -4,7 +4,7 @@ Một hệ thống web đảm bảo bảo mật, xác thực và toàn vẹn d�
 ## 🚀 Giới thiệu chức năng và cách hoạt động của hệ thống
 Hệ thống mô phỏng việc gửi báo cáo nhạy cảm từ một công ty tới một máy chủ nhận qua một server trung gian an toàn:
 
-# 🖥️ Người gửi:
+## 🖥️ Người gửi:
 Tạo khóa RSA: Khóa công khai và khóa riêng để mã hóa và ký số.
 
 Handshake: Gửi lời chào và khởi tạo giao tiếp an toàn với người nhận.
