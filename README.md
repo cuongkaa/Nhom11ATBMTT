@@ -1,10 +1,10 @@
-📘 Gửi Báo Cáo Công Ty Qua Server Trung Gian
+#📘 Gửi Báo Cáo Công Ty Qua Server Trung Gian
 Một hệ thống web đảm bảo bảo mật, xác thực và toàn vẹn dữ liệu trong quá trình gửi báo cáo qua server trung gian, được xây dựng bằng Python, Flask, JavaScript và các thuật toán mã hóa như RSA, AES-GCM, SHA-512.
 
-🚀 Giới thiệu chức năng và cách hoạt động của hệ thống
+##🚀 Giới thiệu chức năng và cách hoạt động của hệ thống
 Hệ thống mô phỏng việc gửi báo cáo nhạy cảm từ một công ty tới một máy chủ nhận qua một server trung gian an toàn:
 
-🖥️ Người gửi:
+#🖥️ Người gửi:
 Tạo khóa RSA: Khóa công khai và khóa riêng để mã hóa và ký số.
 
 Handshake: Gửi lời chào và khởi tạo giao tiếp an toàn với người nhận.
@@ -13,7 +13,7 @@ Ký số & trao khóa: Tạo khóa phiên AES, ký metadata bằng RSA/SHA-512, 
 
 Truyền báo cáo: Mã hóa nội dung bằng AES-GCM, tạo hash toàn vẹn và gửi đi kèm.
 
-🛡️ Người nhận:
+##🛡️ Người nhận:
 Giải mã khóa phiên: Dùng khóa riêng RSA để giải mã SessionKey.
 
 Xác thực chữ ký: Kiểm tra metadata bằng chữ ký số.
@@ -22,7 +22,7 @@ Giải mã nội dung: Dùng AES-GCM để giải mã và xác thực toàn vẹ
 
 Phản hồi ACK/NACK: Thông báo xác nhận hoặc lỗi đến người gửi.
 
-📡 Giao tiếp:
+##📡 Giao tiếp:
 Real-time: Sử dụng Flask SocketIO và WebSocket để gửi nhận theo thời gian thực.
 
 Bảo mật: Kết hợp RSA (2048-bit), AES-GCM (256-bit), SHA-512, chữ ký số và hash.
@@ -33,7 +33,7 @@ Bảo mật: Kết hợp RSA (2048-bit), AES-GCM (256-bit), SHA-512, chữ ký s
 ![Screenshot 2025-07-01 162505](https://github.com/user-attachments/assets/65053111-ce03-4759-bb7f-598e006a1497)
 ![Screenshot 2025-07-01 162525](https://github.com/user-attachments/assets/c1a7a72e-1a9b-4205-abcd-2ac8eadf0f36)
 
-🚀Cách thức hoạt động của trang web. 
+##🚀Cách thức hoạt động của trang web. 
 Hệ thống hoạt động theo mô hình 3 thành phần chính:
 Người gửi (Sender)
 Máy chủ trung gian (Server)
