@@ -1,7 +1,7 @@
-#📘 Gửi Báo Cáo Công Ty Qua Server Trung Gian
+📘 Gửi Báo Cáo Công Ty Qua Server Trung Gian
 Một hệ thống web đảm bảo bảo mật, xác thực và toàn vẹn dữ liệu trong quá trình gửi báo cáo qua server trung gian, được xây dựng bằng Python, Flask, JavaScript và các thuật toán mã hóa như RSA, AES-GCM, SHA-512.
 
-##🚀 Giới thiệu chức năng và cách hoạt động của hệ thống
+🚀 Giới thiệu chức năng và cách hoạt động của hệ thống
 Hệ thống mô phỏng việc gửi báo cáo nhạy cảm từ một công ty tới một máy chủ nhận qua một server trung gian an toàn:
 
 🖥️ Người gửi:
